@@ -1,0 +1,26 @@
+/* General global */
+html, body {
+    font-family: "Catamaran", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    background-color: #eee;
+    text-align: left;
+}
+
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Footer */
+.footer {
+    margin-top: 60px;
+    width: 100%;
+    background-color: #fff;
+    text-align: right;
+    padding: 5px 0;
+}/* Footer */

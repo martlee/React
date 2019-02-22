@@ -1,0 +1,63 @@
+/* General global */
+html, body {
+    font-family: "Catamaran", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    background-color: #eee;
+    text-align: left;
+}
+
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-big {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.header-small {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+
+
+/* Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 25%;
+    background: white;
+    margin: 1%;
+    text-align: center;
+    flex: 1 0 23%;
+}
+
+.productimg {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.productprice {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #00a1b4;
+    padding: 3px 0px;
+}
+/* Products */
+
+
