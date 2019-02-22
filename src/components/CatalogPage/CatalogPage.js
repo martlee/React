@@ -30,8 +30,10 @@ class CatalogPage extends React.Component {
         console.log(event.target.value);///co przyszlo z radio
     };
 
-    getManufacturers() {//wszystkie firmy
-        return [...new Set(products.map(product => product.manufacture).sort())];
+    getManufacturers() {//wszystkie firmy https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Set
+       //https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Operatory/Spread_operator
+        let brands= new Set(products.map(product => product.manufacture).sort());
+        return [...brands];
     };
     getProdSearchFilter(searchText) {
         return products.filter(product => product.name.includes(searchText));
